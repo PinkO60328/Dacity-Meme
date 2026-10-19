@@ -52,3 +52,4 @@ dialog{margin:auto;border:0;background:transparent;max-width:92vw;max-height:90v
 .news:hover{transform:translateY(-3px);box-shadow:0 0 60px rgba(45,226,230,.45);border-color:var(--cyan)}
 .nh{display:flex;align-items:center;gap:12px}.nh img{width:44px;height:44px;border-radius:50%;object-fit:cover}.nh div{display:flex;flex-direction:column;flex:1}.nh span{opacity:.6;font-size:14px}.xmark{font-size:22px;opacity:.8}
 .nq{font-size:20px;line-height:1.5;margin:16px 0 12px}.nf{font-size:14px;color:var(--cyan);margin:0}
+.av{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(135deg,var(--pink),var(--cyan));font-weight:700;color:#fff;opacity:1!important}

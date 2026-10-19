@@ -12,3 +12,4 @@ document.querySelectorAll(".reveal").forEach(el=>io.observe(el));
 const lb=document.getElementById("lb"),lbi=lb.querySelector("img");
 document.querySelectorAll("[data-full]").forEach(b=>b.onclick=()=>{lbi.src=b.dataset.full;lb.showModal()});
 lb.onclick=()=>lb.close();
+if(typeof SOCIAL_LINK!=="undefined")document.querySelectorAll(".social").forEach(a=>{a.href=SOCIAL_LINK});
